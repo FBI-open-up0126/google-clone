@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 import SearchInput from "./SearchInput";
 
@@ -31,7 +32,7 @@ export default function App() {
         <div className="app">
             <Navbar />
 
-            <div className="main-content">
+            <section className="main-content">
                 <div className="google-icon">
                     <img
                         src="https://www.google.com/logos/doodles/2022/seasonal-holidays-2022-6753651837109831.8-ladc.gif"
@@ -48,7 +49,9 @@ export default function App() {
                     {/* TODO: FIGURE OUT A WAY OF DOING THIS */}
                     <button>I'm Feeling Lucky</button>
                 </div>
-            </div>
+            </section>
+
+            <Footer />
         </div>
     );
 }

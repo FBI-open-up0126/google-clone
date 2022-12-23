@@ -1,0 +1,31 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    font-family: Roboto;
+    background-color: #171717;
+    width: 100vw;
+}
+
+.footer a {
+    color: #999da2;
+}
+
+.footer .settings {
+    color: #999da2;
+    text-decoration: none;
+    cursor: pointer;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.footer .settings:hover {
+    text-decoration: underline;
+}
+
+.footer img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}

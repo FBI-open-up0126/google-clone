@@ -30,14 +30,14 @@ export default function SearchInput(props: Props) {
         };
     }, []);
 
-    const onDivClick = () => {
+    function onDivClick() {
         if (!inputRef.current) {
             return;
         }
 
         inputRef.current.focus();
         setHasClicked(true);
-    };
+    }
 
     return (
         <div className={classes} onClick={onDivClick} ref={divRef}>
