@@ -1,3 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body {
+    margin: 0;
+}
+
+:root {
+    --main-bg-color: #202124;
+    --active-color: #303134;
+    --border-color: #5f6368;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

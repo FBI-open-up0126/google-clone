@@ -1,0 +1,38 @@
+.navbar {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 10px 20px;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #bdc1c6;
+}
+
+.nav li {
+    padding: 10px;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right li a {
+    color: white;
+}
+
+.nav a {
+    color: #bdc1c6;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}

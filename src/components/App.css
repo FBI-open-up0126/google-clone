@@ -1,0 +1,33 @@
+.app {
+    background-color: var(--main-bg-color);
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.app .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    flex-direction: column;
+}
+
+.app .buttons button {
+    background-color: var(--active-color);
+    color: white;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid var(--active-color);
+}
+
+.app .buttons button:hover {
+    border: 1px solid var(--border-color);
+}

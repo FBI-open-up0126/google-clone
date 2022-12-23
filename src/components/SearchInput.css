@@ -1,0 +1,45 @@
+.search-input {
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 24px;
+    font-size: 16px;
+    height: 44px;
+    width: 638px;
+    margin: 40px;
+    display: flex;
+}
+
+.search-input svg {
+    color: #9aa0a6;
+    width: 30px;
+    height: 30px;
+}
+
+.search-input .centered {
+    width: 21px;
+    height: 100%;
+    position: relative;
+    left: 15px;
+}
+
+.search-input:hover,
+.search-input.clicked {
+    background-color: var(--active-color);
+    border: 1px solid var(--active-color);
+}
+
+.search-input input:focus {
+    outline: none;
+}
+
+.search-input input {
+    background-color: transparent;
+    height: inherit;
+    width: 570px;
+    border: none;
+    position: relative;
+    left: 25px;
+    font-size: 16px;
+    color: white;
+    font-family: Roboto;
+}
